@@ -1,4 +1,4 @@
-# EmpaYa MCP Server
+# Cloudways MCP Server
 
 Servidor MCP para operar Cloudways desde Claude Code u otros clientes MCP.
 
