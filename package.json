@@ -1,12 +1,12 @@
 {
-  "name": "cloudways-mcp-server",
+  "name": "empaya-mcp-server",
   "version": "1.0.0",
   "description": "Model Context Protocol server for Cloudways deployments, apps, logs, SSL, backups, and monitoring.",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": {
-    "cloudways-mcp-server": "dist/index.js"
+    "empaya-mcp-server": "dist/index.js"
   },
   "files": [
     "dist",

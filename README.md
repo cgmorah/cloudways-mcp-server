@@ -1,4 +1,4 @@
-# Cloudways MCP Server
+# EmpaYa MCP Server
 
 Servidor MCP para operar Cloudways desde Claude Code u otros clientes MCP.
 
@@ -46,9 +46,9 @@ Ejemplo de configuracion MCP:
 ```json
 {
   "mcpServers": {
-    "cloudways": {
+    "empaya-cloudways": {
       "command": "node",
-      "args": ["C:/Claude/empaya/cloudways-mcp-server/dist/index.js"],
+      "args": ["C:/Claude/empaya/empaya-mcp-server/dist/index.js"],
       "env": {
         "CLOUDWAYS_EMAIL": "tu_email@example.com",
         "CLOUDWAYS_API_TOKEN": "tu_api_token"
@@ -78,4 +78,3 @@ npm run build
 ```
 
 Los endpoints estan centralizados en `src/api/*`. Si Cloudways V2 usa rutas distintas, ajusta esas clases y los nombres de tools pueden quedarse estables.
-

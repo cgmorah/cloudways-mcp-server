@@ -5,7 +5,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { registerCloudwaysTools } from "./tools/index.js";
 
 const server = new McpServer({
-  name: "cloudways-mcp-server",
+  name: "empaya-mcp-server",
   version: "1.0.0",
 });
 
@@ -17,4 +17,3 @@ server.connect(transport).catch((error) => {
   console.error("Cloudways MCP server failed to start:", error);
   process.exit(1);
 });
-
