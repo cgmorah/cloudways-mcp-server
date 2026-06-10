@@ -5,7 +5,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { registerCloudwaysTools } from "./tools/index.js";
 
 const server = new McpServer({
-  name: "empaya-mcp-server",
+  name: "cloudways-mcp-server",
   version: "1.0.0",
 });
 

@@ -46,9 +46,9 @@ Ejemplo de configuracion MCP:
 ```json
 {
   "mcpServers": {
-    "empaya-cloudways": {
+    "cloudways": {
       "command": "node",
-      "args": ["C:/Claude/empaya/empaya-mcp-server/dist/index.js"],
+      "args": ["C:/Claude/empaya/cloudways-mcp-server/dist/index.js"],
       "env": {
         "CLOUDWAYS_EMAIL": "tu_email@example.com",
         "CLOUDWAYS_API_TOKEN": "tu_api_token"
